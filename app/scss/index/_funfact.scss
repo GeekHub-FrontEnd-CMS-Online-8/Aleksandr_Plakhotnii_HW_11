@@ -1,0 +1,38 @@
+.funfact {
+  display: flex;
+  padding-top: 39px;
+}
+
+.funfact-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.funfact-box {
+  display: flex;
+  flex-basis: 275px;
+  height: 170px;
+  justify-content: space-between;
+  flex-direction: column;
+  border-right: 1px solid #b0b0b0;
+  &__img {
+    width: 38px;
+    margin: 0 auto;
+  }
+  &__text {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  &__number {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  &:last-child {
+    border: none;
+  }
+}

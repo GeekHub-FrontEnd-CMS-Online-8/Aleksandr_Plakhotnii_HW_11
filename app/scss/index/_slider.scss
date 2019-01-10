@@ -1,0 +1,43 @@
+.slider {
+  background: url("../img/slider-bg.jpg") no-repeat top center;
+  background-size: cover;
+}
+
+.carousel-item {
+  text-align: center;
+  color: #fff;
+  &__top-block {
+    font-size: 14px;
+  }
+  &__middle-block {
+    font-weight: bold;
+    border: 25px solid transparent;
+    border-image: url("../img/border-line.png") 25 round;
+    width: 500px;
+    margin: 30px auto 40px;
+  }
+  &__bottom-block {
+    font-size: 15px;
+    color: #fff;
+    background: none;
+    border: 2px solid #fff;
+    cursor: pointer;
+    width: 150px;
+    height: 44px;
+    &:hover {
+      background: #3e3d3d;
+      color: #fff;
+      font-size: 16px;
+    }
+  }
+}
+
+.slider-wrap {
+  align-items: center;
+  padding-top: 300px;
+  padding-bottom: 298px;
+}
+
+
+
+
