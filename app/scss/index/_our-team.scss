@@ -5,6 +5,67 @@
   justify-content: center;
 }
 
-.our-team-wrap {
+.my-team {
+  display: flex;
+  justify-content: center;
+  &-wrap {
+    display: flex;
+    flex-basis: 875px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
 
+.team-box {
+  width: 271px;
+  height: 338px;
+  padding: 7px;
+  &-1 {
+    background: url("../img/team-img-1.jpg") no-repeat;
+  }
+  &-2 {
+    background: url("../img/team-img-2.jpg") no-repeat;
+  }
+  &-3 {
+    background: url("../img/team-img-3.jpg") no-repeat;
+  }
+  &:hover .team-box__hover {
+    display: block;
+  }
+}
+
+.team-box__hover {
+  display: none;
+  background-color: rgba( 246, 246, 246, .82);
+  height: 100%;
+  padding: 200px 0 0 21px;
+  position: relative;
+  &-autor {
+    color: #3e3d3d;
+    &-name {
+      font-size: 15px;
+      font-weight: bold;
+      margin-bottom: 0;
+    }
+    &-whoIs {
+      font-size: 15px;
+      font-style: italic;
+    }
+  }
+}
+
+.team-box__hover-social {
+  margin-top: 29px;
+  &-icon {
+    color: #3e3d3d;
+  }
+  &:before {
+    content: "";
+    height: 2px;
+    width: 146px;
+    background: #515151;
+    position: absolute;
+    top: 252px;
+  }
 }

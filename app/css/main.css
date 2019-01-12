@@ -313,6 +313,28 @@ p {
   }
 }
 
+@media screen and (max-width: 833px) {
+  .my-team-wrap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+    -webkit-justify-content: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .team-box-3 {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 562px) {
+  .team-box-2 {
+    margin-top: 30px;
+  }
+}
+
 .slider {
   background: url("../img/slider-bg.jpg") no-repeat top center;
   -webkit-background-size: cover;
@@ -926,6 +948,101 @@ p {
           justify-content: center;
 }
 
+.my-team {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.my-team-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-basis: 875px;
+      -ms-flex-preferred-size: 875px;
+          flex-basis: 875px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.team-box {
+  width: 271px;
+  height: 338px;
+  padding: 7px;
+}
+
+.team-box-1 {
+  background: url("../img/team-img-1.jpg") no-repeat;
+}
+
+.team-box-2 {
+  background: url("../img/team-img-2.jpg") no-repeat;
+}
+
+.team-box-3 {
+  background: url("../img/team-img-3.jpg") no-repeat;
+}
+
+.team-box:hover .team-box__hover {
+  display: block;
+}
+
+.team-box__hover {
+  display: none;
+  background-color: rgba(246, 246, 246, 0.82);
+  height: 100%;
+  padding: 200px 0 0 21px;
+  position: relative;
+}
+
+.team-box__hover-autor {
+  color: #3e3d3d;
+}
+
+.team-box__hover-autor-name {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.team-box__hover-autor-whoIs {
+  font-size: 15px;
+  font-style: italic;
+}
+
+.team-box__hover-social {
+  margin-top: 29px;
+}
+
+.team-box__hover-social-icon {
+  color: #3e3d3d;
+}
+
+.team-box__hover-social:before {
+  content: "";
+  height: 2px;
+  width: 146px;
+  background: #515151;
+  position: absolute;
+  top: 252px;
+}
+
 /*adaptive menu*/
 @media screen and (max-width: 860px) {
   .menu {
@@ -1088,5 +1205,27 @@ p {
         -ms-transform: translate(-50%, 0%);
             transform: translate(-50%, 0%);
     bottom: 52px;
+  }
+}
+
+@media screen and (max-width: 833px) {
+  .my-team-wrap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+    -webkit-justify-content: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .team-box-3 {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 562px) {
+  .team-box-2 {
+    margin-top: 30px;
   }
 }

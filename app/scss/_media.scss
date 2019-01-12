@@ -153,3 +153,18 @@
   }
 }
 
+@media screen and (max-width: 833px){
+  .my-team-wrap {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .team-box-3 {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 562px){
+  .team-box-2 {
+    margin-top: 30px;
+  }
+}
