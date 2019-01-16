@@ -1,0 +1,49 @@
+.portfolio-wrap {
+  padding: 78px 0 64px;
+}
+
+.portfolio-buttons {
+  display: flex;
+  justify-content: center;
+
+  &-group {
+    display: flex;
+    flex-basis: 425px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+
+.portfolio-btn {
+  padding: 11px 20px;
+  border: 1px solid #656464;
+  outline: 1px solid #3e3d3d;
+  background: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  color: #3e3d3d;
+  transition: all .2s ease-in-out;
+  &:hover {
+    background: #3e3d3d;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid transparent;
+  }
+  &:active {
+    outline: none;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+.sizer4 {
+  min-width: 25%;
+  }
+
+.item-img {
+  width: 100%;
+  height: auto;
+}
+
+

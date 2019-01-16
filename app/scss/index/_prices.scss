@@ -1,0 +1,133 @@
+#prices {
+  background: #e3e3e3;
+  display: flex;
+  flex-direction: column;
+  padding-top: 70px;
+  align-items: center;
+}
+
+.prices-wrap {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.plans {
+  display: flex;
+  justify-content: center;
+}
+
+.plans-wrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.price-list-box {
+  display: flex;
+  flex-basis: 370px;
+  background: #fff;
+  flex-direction: column;
+  height: 550px;
+  justify-content: space-between;
+  padding: 45px 0 58px;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  &__headline {
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  &__icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #3e3d3d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 20;
+    &-img {
+      color: #4a4949;
+      font-size: 23px;
+    }
+    &:after {
+      position: absolute;
+      content: "";
+      width: 85px;
+      height: 1px;
+      background: #504f4f;
+      left: 75px;
+      top: 114px;
+    }
+    &:before {
+      position: absolute;
+      content: "";
+      width: 85px;
+      height: 1px;
+      background: #504f4f;
+      right: 75px;
+      top: 114px;
+    }
+  }
+  &__price {
+    font-weight: bold;
+    font-size: 60px;
+    &:before {
+      content: "$";
+      font-size: 20px;
+      position: relative;
+      bottom: 41px;
+      right: 15px;
+    }
+  }
+  &__advantages {
+    width: 170px;
+    font-size: 18px;
+    font-style: italic;
+  }
+}
+
+.prices-footer {
+  display: flex;
+  background: #2d2d2f;
+  width: 100% !important;
+  height: 178px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 92px;
+  &-wrap {
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+  }
+  &__text {
+    font-size: 18px;
+    flex-basis: 700px;
+    align-self: center;
+    h5 {
+      color: #d8d8d8;
+    }
+    p {
+      color: #888888;
+      font-style: italic;
+    }
+  }
+  &__btn {
+    height: max-content;
+    align-self: center;
+    border: 1px solid #bfbfbf;
+    outline: 1px solid #e3e3e3;
+    color: #e3e3e3;
+    text-transform: none;
+  }
+  &__img {
+    /*align-items: center;*/
+  }
+}
