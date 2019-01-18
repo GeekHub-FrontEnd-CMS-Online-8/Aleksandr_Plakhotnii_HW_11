@@ -1,5 +1,5 @@
 #footer {
-  background: url("../../img/bg-footer.jpg") repeat-y top center;
+  background: url("../img/bg-footer.jpg") repeat-y top center;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -53,7 +53,8 @@
       background: none;
       border: 2px solid #464646;
       height: 95px;
-      padding-left: 20px;
+      padding: 10px 0 0 20px;
+
     }
     &__btn {
       width: 135px;

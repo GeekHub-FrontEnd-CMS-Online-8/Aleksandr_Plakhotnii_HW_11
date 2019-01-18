@@ -9,6 +9,7 @@ $( document ).ready(function () {
             persentPosition: true
         })
     });
+
     $(".owl-carousel").owlCarousel({
         items: 1,
         dots:true,

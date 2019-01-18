@@ -1,0 +1,127 @@
+.posts-sidebar {
+  background: url("../img/post-with-sidebar-bg.jpg") no-repeat center top;
+  background-size: cover;
+}
+
+.blog-post__article {
+  &-box {
+    border: 2px solid #a8a8a8;
+    padding: 66px 43px;
+    &-text {
+      font-weight: 600;
+    }
+  }
+  &-icons {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 15px 0;
+    border-top: 1px solid #b7b7b7;
+    border-bottom: 1px solid #b7b7b7;
+    &-box {
+      width: 31px;
+      height: 31px;
+      border-radius: 50%;
+      border: 1px solid #9f9f9f;
+      line-height: 31px;
+      text-align: center;
+      margin-right: 5px;
+      &:last-child {
+        margin-right: 0;
+      }
+      .fab {
+        color: #818181;
+
+      }
+      a {
+        width: 100%;
+        height: 100%;
+        display: block;
+        &:hover .fa-facebook-f {
+          color: #3b5998;
+        }
+        &:hover .fa-twitter {
+          color: #00aced;
+        }
+        &:hover .fa-google-plus-g {
+          color: #dd4b39;
+        }
+        &:hover .fa-behance {
+          color: #ff0084;
+        }
+        &:hover .fa-youtube {
+          color: #bb0000;
+        }
+      }
+    }
+  }
+}
+
+
+.comments {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 25px;
+  &-headline {
+    font-size: 18px;
+    padding-top: 65px;
+  }
+  &-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    border-bottom: 1px solid #b7b7b7;
+    margin-top: 53px;
+    .reply {
+      display: block;
+      padding: 50px 0 13px;
+      .fas {
+        color: #232323;
+      }
+    }
+  }
+  &-box {
+    display: flex;
+    flex-direction: row;
+
+    &__user {
+      max-width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      margin-right: 30px;
+      width: 100%;
+    }
+    &__text {
+      margin-top: 15px;
+      &-headline {
+        font-size: 15px;
+        font-weight: bold;
+
+      }
+      &-data {
+        font-size: 13px;
+        font-style: italic;
+        padding: 9px 0 35px;
+      }
+      &-feedback {
+
+      }
+    }
+  }
+}
+
+.two-comments {
+  margin-left: 100px;
+}
+
+.footer-with-post {
+  width: 100%;
+  margin-top: 47px;
+  &-form {
+    margin-top: 0;
+  }
+  &__btn:hover {
+    border: 2px solid #464646;
+    background: none;
+  }
+}

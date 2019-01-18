@@ -1,3 +1,4 @@
+/*index*/
 @import "header";
 @import "slider";
 @import "photo";
@@ -12,4 +13,18 @@
 @import "clients";
 @import "footer";
 
+/*blog*/
+@import "../post/masonry-blog";
+
+
+
+/*blog-width-sidebar*/
+@import "../blog-with-sidebar/blog-width-sidebar";
+
+
+/*post-with-sidebar*/
+@import "../post-with-sidebar/post-with-sidebar";
+
+
+/*adaptive*/
 @import "../media";

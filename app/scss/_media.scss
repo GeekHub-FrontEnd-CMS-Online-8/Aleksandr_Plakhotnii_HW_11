@@ -275,3 +275,16 @@
     padding-bottom: 135px;
   }
 }
+
+@media screen and (max-width: 1120px){
+  .blog-wrapper-sidebar {
+    justify-content: center;
+    padding: 0 10px;
+  }
+}
+
+@media screen and (max-width: 820px){
+  .sidebar-for-post {
+    margin-top: 150px;
+  }
+}
